@@ -758,13 +758,16 @@ section .title::after{
     width: 90%;
 }
 .skills-content .right .js::before{
-    width: 60%;
+    width: 80%;
+}
+.skills-content .right .typescript::before{
+    width: 90%;
 }
 .skills-content .right .java::before{
     width: 60%;
 }
 .skills-content .right .oop::before{
-    width:60%;
+    width:80%;
 }
 .skills-content .right .mysql::before{
     width: 60%;
@@ -776,15 +779,18 @@ section .title::after{
     width: 75%;
 }
 .skills-content .right .manual-testing::before{
-    width: 65%;
+    width: 85%;
+}
+.skills-content .right .functional-testing::before{
+    width: 85%;
 }
 .skills-content .right .performance-testing::before{
     width: 75%;
 }
-.skills-content .right .sdlc::before{
+.skills-content .right .sdlc-stlc::before{
     width: 75%;
 }
-.skills-content .right .stlc::before{
+.skills-content .right .git::before{
     width: 75%;
 }
 .skills-content .right .vscode::before{
@@ -792,6 +798,12 @@ section .title::after{
 }
 .skills-content .right .photoshop::before{
     width: 50%;
+}
+.skills-content .right .performance-testing::before{
+    width: 75%;
+}
+.skills-content .right .playwright::before{
+    width: 75%;
 }
 
 
@@ -1447,6 +1459,79 @@ li.company-2 {
     font-size: 1.3em;
     color: #000;
   }
+
+  .experience {
+  padding: 80px 20px;
+  background: #0f172a;
+  color: #fff;
+}
+
+.experience .title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.experience-card {
+  background: #111c33;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #1f2a44;
+  transition: 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  border-color: #38bdf8;
+}
+
+.experience-header h3 {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+  color: #38bdf8;
+}
+
+.role {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.location,
+.duration {
+  display: inline-block;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-right: 10px;
+}
+
+.experience-list {
+  margin-top: 15px;
+  padding-left: 18px;
+}
+
+.experience-list li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.sub-experience {
+  margin-top: 15px;
+  padding-left: 10px;
+}
+
+.sub-experience h4 {
+  color: #facc15;
+  margin-bottom: 5px;
+}
   
   /* Animation Styles */
   @keyframes fadeInUp {
