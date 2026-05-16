@@ -82,7 +82,7 @@ $(document).ready(function() {
     });
 
     var typed = new Typed(".typing", {
-        strings: ["Web Developer", "Tester", "Back End Developer", "Software Engineer", "Fresher", "Quality Assurance"],
+        strings: ["Web Developer", "Playwright Automation Tester", "QA Automation Engineer", "Software Engineer", "Backend Developer", "2+ Years Experience"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -96,7 +96,7 @@ $(document).ready(function() {
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Web Developer", "Tester", "Back End Developer", "Software Engineer", "Fresher", "Quality Assurance"],
+        strings: ["Web Developer", "Playwright Automation Tester", "QA Automation Engineer", "Software Engineer", "Backend Developer", "2+ Years Experience"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
